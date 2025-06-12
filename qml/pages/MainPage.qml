@@ -6,33 +6,42 @@ Page {
     allowedOrientations: Orientation.Portrait
 
     Button {
+        id: resumeGameButton
         objectName: "resumeGameButton"
-        anchors.verticalCenter: parent.verticalCenter
-        anchors.bottom: startGameName.top
+        anchors {
+            horizontalCenter: parent.horizontalCenter
+            bottom: startGameButton.top
+            bottomMargin: 100
+        }
         text: qsTr("#resumeGameText")
-
         onClicked: pageStack.push(Qt.resolvedUrl("GamingPage.qml"))
     }
 
     Button {
+        id: startGameButton
         objectName: "startGameButton"
-        anchors.verticalCenter: parent.verticalCenter
-        anchors.horizontalCenter: parent.horizontalCenter
+        anchors {
+            verticalCenter: parent.verticalCenter
+            horizontalCenter: parent.horizontalCenter
+        }
         text: qsTr("#startGameText")
-
         onClicked: pageStack.push(Qt.resolvedUrl("GamingPage.qml"))
     }
 
     Button {
+        id: recordsButton
         objectName: "recordsButton"
-        anchors.verticalCenter: parent.verticalCenter
-        anchors.top: startGameName.bottom
+        anchors {
+            horizontalCenter: parent.horizontalCenter
+            top: startGameButton.bottom
+            topMargin: 100
+        }
         text: qsTr("#recordsText")
-
         onClicked: pageStack.push(Qt.resolvedUrl("RecordsPage.qml"))
     }
 
     Label {
+        id: creatorName
         objectName: "creatorName"
         anchors {
             left: parent.left;

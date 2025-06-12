@@ -42,22 +42,22 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="12"/>
+        <location filename="../qml/pages/MainPage.qml" line="16"/>
         <source>#resumeGameText</source>
         <translation>Resume Game</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="21"/>
+        <location filename="../qml/pages/MainPage.qml" line="27"/>
         <source>#startGameText</source>
         <translation>Start Game</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="30"/>
+        <location filename="../qml/pages/MainPage.qml" line="39"/>
         <source>#recordsText</source>
         <translation>Records</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="48"/>
+        <location filename="../qml/pages/MainPage.qml" line="57"/>
         <source>#creatorTitle</source>
         <translation>Created by alexbayker</translation>
     </message>
