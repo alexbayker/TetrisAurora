@@ -31,9 +31,12 @@ Page {
             bottom: startGameButton.top
             bottomMargin: 100
         }
-        border.color: "#FEE497"
-        border.highlightColor: "#FEE497"
+        border {
+            color: "#FEE497"
+            highlightColor: "#FEE497"
+        }
         color: "#FEE497"
+        highlightColor: "#FEE497"
         text: qsTr("#resumeGameText")
         onClicked: pageStack.push(Qt.resolvedUrl("GamingPage.qml"))
     }
@@ -46,8 +49,12 @@ Page {
             verticalCenter: parent.verticalCenter
             horizontalCenter: parent.horizontalCenter
         }
-        border.color: palette.primaryColor
-        border.highlightColor: palette.highlightColor
+        border {
+            color: "#000000"
+            highlightColor: "#FFFFFF"
+        }
+        color: "#000000"
+        highlightColor: "#FFFFFF"
         text: qsTr("#startGameText")
         onClicked: pageStack.push(Qt.resolvedUrl("GamingPage.qml"))
     }
@@ -61,8 +68,12 @@ Page {
             top: startGameButton.bottom
             topMargin: 100
         }
-        border.color: palette.primaryColor
-        border.highlightColor: palette.highlightColor
+        border {
+            color: "#000000"
+            highlightColor: "#FFFFFF"
+        }
+        color: "#000000"
+        highlightColor: "#FFFFFF"
         text: qsTr("#recordsText")
         onClicked: pageStack.push(Qt.resolvedUrl("RecordsPage.qml"))
     }
@@ -76,11 +87,11 @@ Page {
             bottom: parent.bottom;
             margins: Theme.horizontalPageMargin
         }
-        color: palette.highlightColor
+        color: "#000000"
+        text: qsTr("#creatorTitle")
         font.pixelSize: Theme.fontSizeSmall
         textFormat: Text.Center
         horizontalAlignment: Text.AlignHCenter
         wrapMode: Text.WordWrap
-        text: qsTr("#creatorTitle")
     }
 }
