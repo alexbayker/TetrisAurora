@@ -5,18 +5,31 @@ Page {
     objectName: "mainPage"
     allowedOrientations: Orientation.Portrait
 
-    PageHeader {
-        objectName: "pageHeader"
-        title: qsTr("Classic Tetris")
-        extraContent.children: [
-            IconButton {
-                objectName: "aboutButton"
-                icon.source: "image://theme/icon-m-about"
-                anchors.verticalCenter: parent.verticalCenter
+    Button {
+        objectName: "resumeGameButton"
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.bottom: startGameName.top
+        text: qsTr("#resumeGameText")
 
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
-            }
-        ]
+        onClicked: pageStack.push(Qt.resolvedUrl("GamingPage.qml"))
+    }
+
+    Button {
+        objectName: "startGameButton"
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.horizontalCenter: parent.horizontalCenter
+        text: qsTr("#startGameText")
+
+        onClicked: pageStack.push(Qt.resolvedUrl("GamingPage.qml"))
+    }
+
+    Button {
+        objectName: "recordsButton"
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.top: startGameName.bottom
+        text: qsTr("#recordsText")
+
+        onClicked: pageStack.push(Qt.resolvedUrl("RecordsPage.qml"))
     }
 
     Label {
@@ -30,7 +43,8 @@ Page {
         color: palette.highlightColor
         font.pixelSize: Theme.fontSizeSmall
         textFormat: Text.Center
+        horizontalAlignment: Text.AlignHCenter
         wrapMode: Text.WordWrap
-        text: "Created by alexbayker"
+        text: qsTr("#creatorTitle")
     }
 }

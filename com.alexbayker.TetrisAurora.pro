@@ -11,6 +11,8 @@ SOURCES += \
 HEADERS += \
 
 DISTFILES += \
+    qml/pages/GamingPage.qml \
+    qml/pages/RecordsPage.qml \
     rpm/com.alexbayker.TetrisAurora.spec \
 
 AURORAAPP_ICONS = 86x86 108x108 128x128 172x172
