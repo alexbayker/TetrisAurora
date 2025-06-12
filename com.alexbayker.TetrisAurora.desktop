@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=com.alexbayker.TetrisAurora
+Exec=/usr/bin/com.alexbayker.TetrisAurora
+Name=Classic Tetris
+Name[ru]=Классический Тетрис
+
+[X-Application]
+Permissions=
+OrganizationName=com.alexbayker
+ApplicationName=TetrisAurora
+ExecDBus=/usr/bin/com.alexbayker.TetrisAurora
