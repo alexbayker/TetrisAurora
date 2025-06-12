@@ -6,7 +6,7 @@ CoverBackground {
 
     CoverTemplate {
         objectName: "applicationCover"
-        primaryText: "App"
+        primaryText: ""
         secondaryText: qsTr("Classic Tetris")
         icon {
             source: Qt.resolvedUrl("../icons/TetrisAurora.svg")

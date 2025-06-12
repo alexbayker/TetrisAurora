@@ -4,22 +4,22 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="20"/>
+        <location filename="../qml/pages/AboutPage.qml" line="21"/>
         <source>About Application</source>
         <translation>About Application</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="30"/>
+        <location filename="../qml/pages/AboutPage.qml" line="31"/>
         <source>#descriptionText</source>
         <translation>&lt;p&gt;Классический Тетрис для Аврора&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="35"/>
+        <location filename="../qml/pages/AboutPage.qml" line="36"/>
         <source>3-Clause BSD License</source>
         <translation>3-Clause BSD License</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="45"/>
+        <location filename="../qml/pages/AboutPage.qml" line="46"/>
         <source>#licenseText</source>
         <translation>&lt;p&gt;&lt;i&gt;Copyright (C) 2022 com.alexbayker&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&lt;/p&gt;
@@ -42,22 +42,22 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="16"/>
+        <location filename="../qml/pages/MainPage.qml" line="37"/>
         <source>#resumeGameText</source>
         <translation>Resume Game</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="27"/>
+        <location filename="../qml/pages/MainPage.qml" line="51"/>
         <source>#startGameText</source>
         <translation>Start Game</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="39"/>
+        <location filename="../qml/pages/MainPage.qml" line="66"/>
         <source>#recordsText</source>
         <translation>Records</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="57"/>
+        <location filename="../qml/pages/MainPage.qml" line="84"/>
         <source>#creatorTitle</source>
         <translation>Created by alexbayker</translation>
     </message>
