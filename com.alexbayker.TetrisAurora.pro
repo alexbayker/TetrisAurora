@@ -6,9 +6,11 @@ CONFIG += \
 PKGCONFIG += \
 
 SOURCES += \
+    src/actions.cpp \
     src/main.cpp \
 
 HEADERS += \
+    src/actions.h
 
 DISTFILES += \
     qml/pages/GamingPage.qml \

@@ -8,16 +8,16 @@ Page {
 
     Rectangle {
         id: backgroundGradient
-        width: parentLayout.width;
+        width: parentLayout.width
         height: parentLayout.height
         //rotation: 225
         gradient: Gradient {
             GradientStop {
-                position: 0.0;
+                position: 0.0
                 color: "#000000"
             }
             GradientStop {
-                position: 1.0;
+                position: 1.0
                 color: "#007AFE"
             }
         }

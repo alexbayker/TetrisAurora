@@ -2,11 +2,11 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="en">
 <context>
-    <name>DefaultCoverPage</name>
+    <name>GamingPage</name>
     <message>
-        <location filename="../qml/cover/DefaultCoverPage.qml" line="10"/>
-        <source>Classic Tetris</source>
-        <translation>Classic Tetris</translation>
+        <location filename="../qml/pages/GamingPage.qml" line="229"/>
+        <source>#creatorTitle</source>
+        <translation type="unfinished">Created by alexbayker</translation>
     </message>
 </context>
 <context>
