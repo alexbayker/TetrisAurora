@@ -6,28 +6,28 @@
     <message>
         <location filename="../qml/pages/GamingPage.qml" line="229"/>
         <source>#creatorTitle</source>
-        <translation type="unfinished">Created by alexbayker</translation>
+        <translation>Created by alexbayker</translation>
     </message>
 </context>
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="40"/>
+        <location filename="../qml/pages/MainPage.qml" line="51"/>
         <source>#resumeGameText</source>
         <translation>Resume Game</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="58"/>
+        <location filename="../qml/pages/MainPage.qml" line="79"/>
         <source>#startGameText</source>
         <translation>Start Game</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="77"/>
+        <location filename="../qml/pages/MainPage.qml" line="108"/>
         <source>#recordsText</source>
         <translation>Records</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="91"/>
+        <location filename="../qml/pages/MainPage.qml" line="122"/>
         <source>#creatorTitle</source>
         <translation>Created by alexbayker</translation>
     </message>

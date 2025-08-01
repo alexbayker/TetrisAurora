@@ -21,6 +21,19 @@ Page {
                 color: "#007AFE"
             }
         }
+        radius: 4
+    }
+
+    Rectangle {
+        id: resumeGameContainer
+        objectName: "resumeGameContainer"
+        anchors.fill: resumeGameButton
+        border {
+            color: "#FEE497"
+            width: 4
+        }
+        color: "#44000000"
+        radius: 20
     }
 
     Button {
@@ -31,14 +44,24 @@ Page {
             bottom: startGameButton.top
             bottomMargin: 100
         }
-        border {
-            color: "#FEE497"
-            highlightColor: "#FEE497"
-        }
         color: "#FEE497"
-        highlightColor: "#FEE497"
+        highlightColor: "#FFFFFF"
+        backgroundColor: "#00000000"
+        highlightBackgroundColor: "#00000000"
         text: qsTr("#resumeGameText")
         onClicked: pageStack.push(Qt.resolvedUrl("GamingPage.qml"))
+    }
+
+    Rectangle {
+        id: startGameContainer
+        objectName: "startGameContainer"
+        anchors.fill: startGameButton
+        border {
+            color: "#000000"
+            width: 4
+        }
+        color: "#44000000"
+        radius: 20
     }
 
     Button {
@@ -49,14 +72,24 @@ Page {
             verticalCenter: parent.verticalCenter
             horizontalCenter: parent.horizontalCenter
         }
-        border {
-            color: "#000000"
-            highlightColor: "#FFFFFF"
-        }
         color: "#000000"
         highlightColor: "#FFFFFF"
+        backgroundColor: "#00000000"
+        highlightBackgroundColor: "#00000000"
         text: qsTr("#startGameText")
         onClicked: pageStack.push(Qt.resolvedUrl("GamingPage.qml"))
+    }
+
+    Rectangle {
+        id: recordsContainer
+        objectName: "recordsContainer"
+        anchors.fill: recordsButton
+        border {
+            color: "#000000"
+            width: 4
+        }
+        color: "#44000000"
+        radius: 20
     }
 
     Button {
@@ -68,12 +101,10 @@ Page {
             top: startGameButton.bottom
             topMargin: 100
         }
-        border {
-            color: "#000000"
-            highlightColor: "#FFFFFF"
-        }
         color: "#000000"
         highlightColor: "#FFFFFF"
+        backgroundColor: "#00000000"
+        highlightBackgroundColor: "#00000000"
         text: qsTr("#recordsText")
         onClicked: pageStack.push(Qt.resolvedUrl("RecordsPage.qml"))
     }
