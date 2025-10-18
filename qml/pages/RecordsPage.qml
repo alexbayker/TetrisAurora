@@ -22,4 +22,48 @@ Page {
             }
         }
     }
+
+    Label {
+        id: dontHaveRecordsText
+        objectName: "dontHaveRecordsText"
+        anchors {
+            verticalCenter: parent.verticalCenter
+            horizontalCenter: parent.horizontalCenter
+        }
+        color: "#FEE497"
+        text: qsTr("#dontHaveRecordsText")
+        font.pixelSize: Theme.fontSizeMedium
+        lineCount: 1
+        textFormat: Text.Center
+        horizontalAlignment: Text.AlignHCenter
+        wrapMode: Text.WordWrap
+    }
+
+    SilicaListView {
+        id: recordsList
+        objectName: "recordsList"
+        anchors {
+            top: parent.top
+            left: parent.left
+            right: parent.right
+            bottom: parent.bottom
+        }
+    }
+
+    Label {
+        id: creatorName
+        objectName: "creatorName"
+        anchors {
+            left: parent.left
+            right: parent.right
+            bottom: parent.bottom
+            margins: Theme.horizontalPageMargin
+        }
+        color: "#000000"
+        text: qsTr("#creatorTitle")
+        font.pixelSize: Theme.fontSizeSmall
+        textFormat: Text.Center
+        horizontalAlignment: Text.AlignHCenter
+        wrapMode: Text.WordWrap
+    }
 }

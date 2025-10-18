@@ -32,4 +32,17 @@
         <translation>Создано alexbayker</translation>
     </message>
 </context>
+<context>
+    <name>RecordsPage</name>
+    <message>
+        <location filename="../qml/pages/RecordsPage.qml" line="34"/>
+        <source>#dontHaveRecordsText</source>
+        <translation>У Вас еще нет рекордов!</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecordsPage.qml" line="62"/>
+        <source>#creatorTitle</source>
+        <translation>Создано alexbayker</translation>
+    </message>
+</context>
 </TS>

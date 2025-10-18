@@ -33,7 +33,7 @@ Page {
             width: 4
         }
         color: "#44000000"
-        radius: 20
+        radius: 25
     }
 
     Button {
@@ -61,7 +61,7 @@ Page {
             width: 4
         }
         color: "#44000000"
-        radius: 20
+        radius: 25
     }
 
     Button {
@@ -89,7 +89,7 @@ Page {
             width: 4
         }
         color: "#44000000"
-        radius: 20
+        radius: 25
     }
 
     Button {

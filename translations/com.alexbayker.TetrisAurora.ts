@@ -32,4 +32,17 @@
         <translation>Created by alexbayker</translation>
     </message>
 </context>
+<context>
+    <name>RecordsPage</name>
+    <message>
+        <location filename="../qml/pages/RecordsPage.qml" line="34"/>
+        <source>#dontHaveRecordsText</source>
+        <translation>You don't have records!</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/RecordsPage.qml" line="62"/>
+        <source>#creatorTitle</source>
+        <translation>Created by alexbayker</translation>
+    </message>
+</context>
 </TS>
