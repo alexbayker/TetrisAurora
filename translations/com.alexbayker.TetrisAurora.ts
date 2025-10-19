@@ -4,7 +4,7 @@
 <context>
     <name>GamingPage</name>
     <message>
-        <location filename="../qml/pages/GamingPage.qml" line="229"/>
+        <location filename="../qml/pages/GamingPage.qml" line="246"/>
         <source>#creatorTitle</source>
         <translation>Created by alexbayker</translation>
     </message>
@@ -35,12 +35,12 @@
 <context>
     <name>RecordsPage</name>
     <message>
-        <location filename="../qml/pages/RecordsPage.qml" line="34"/>
+        <location filename="../qml/pages/RecordsPage.qml" line="31"/>
         <source>#dontHaveRecordsText</source>
-        <translation>You don't have records!</translation>
+        <translation>You don&apos;t have records!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/RecordsPage.qml" line="62"/>
+        <location filename="../qml/pages/RecordsPage.qml" line="111"/>
         <source>#creatorTitle</source>
         <translation>Created by alexbayker</translation>
     </message>

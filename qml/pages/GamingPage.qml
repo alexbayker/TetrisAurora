@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtQuick.LocalStorage 2.0
 import Sailfish.Silica 1.0
 
 Page {
@@ -157,7 +158,23 @@ Page {
         }
         highlighted: true
         onClicked: {
-            _actions.rotation()
+            var db = LocalStorage.openDatabaseSync("Records", "1.0", "RecordsDB", 1000);
+            db.transaction(
+                function(tx) {
+                    tx.executeSql('CREATE TABLE IF NOT EXISTS Records(name TEXT, score INT, date TEXT)');
+
+                    var now = new Date()
+                    var stringTime = now.toLocaleTimeString(Qt.locale(), "HH:mm:ss")
+
+                    var stringDate = now.toLocaleDateString(Qt.locale(), "dd-MM-yyyy")
+
+                    var dateTime = stringTime + " " + stringDate
+
+                    console.log("log completed " + dateTime)
+
+                    tx.executeSql('INSERT INTO Records (name, score, date) VALUES(?, ?, ?)', [ 'Живность', 1000, dateTime]);
+                }
+            )
         }
     }
 

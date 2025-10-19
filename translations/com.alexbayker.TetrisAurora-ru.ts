@@ -4,7 +4,7 @@
 <context>
     <name>GamingPage</name>
     <message>
-        <location filename="../qml/pages/GamingPage.qml" line="229"/>
+        <location filename="../qml/pages/GamingPage.qml" line="246"/>
         <source>#creatorTitle</source>
         <translation type="unfinished">Создано alexbayker</translation>
     </message>
@@ -35,12 +35,12 @@
 <context>
     <name>RecordsPage</name>
     <message>
-        <location filename="../qml/pages/RecordsPage.qml" line="34"/>
+        <location filename="../qml/pages/RecordsPage.qml" line="31"/>
         <source>#dontHaveRecordsText</source>
         <translation>У Вас еще нет рекордов!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/RecordsPage.qml" line="62"/>
+        <location filename="../qml/pages/RecordsPage.qml" line="111"/>
         <source>#creatorTitle</source>
         <translation>Создано alexbayker</translation>
     </message>
