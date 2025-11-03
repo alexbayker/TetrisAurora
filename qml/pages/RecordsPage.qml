@@ -61,7 +61,7 @@ Page {
                     var item = rs.rows.item(i)
 
                     listModel.append({
-                        "name": item.name,
+                        "name": i + ") " + item.name,
                         "score": item.score,
                         "date": item.date
                     })
@@ -89,10 +89,67 @@ Page {
         }
         model: listModel
         delegate: Item {
+           id: listItemLayout
+           objectName: "listItemLayout"
            width: recordsList.width
-           height: Theme.itemSizeMedium
+           height: (nameAndNumberText.height + dateText.height + (Theme.horizontalPageMargin * 2))
+
+           Rectangle {
+               id: listItemContainer
+               objectName: "listItemContainer"
+               width: listItemLayout.width
+               height: listItemLayout.height
+               anchors {
+                   top: nameAndNumberText.top
+                   bottom: dateText.bottom
+                   left: listItemLayout.left
+                   right: listItemLayout.right
+               }
+               border {
+                   color: "#000000"
+                   width: 4
+               }
+               color: "#44000000"
+               radius: 25
+           }
+
            Label {
+               id: nameAndNumberText
+               objectName: "nameAndNumberText"
+               anchors {
+                   top: listItemLayout.top
+                   left: listItemLayout.left
+                   topMargin: Theme.horizontalPageMargin
+                   leftMargin: Theme.horizontalPageMargin
+               }
+               text: model.name
+               color: "#FFFFFF"
+           }
+
+           Label {
+               id: dateText
+               objectName: "dateText"
+               anchors {
+                   top: nameAndNumberText.bottom
+                   left: listItemLayout.left
+                   bottom: listItemLayout.bottom
+                   bottomMargin: Theme.horizontalPageMargin
+                   leftMargin: Theme.horizontalPageMargin
+               }
                text: model.date
+               color: "#FFFFFF"
+           }
+
+           Label {
+               id: scoreText
+               objectName: "scoreText"
+               anchors {
+                   top: nameAndNumberText.top
+                   right: listItemLayout.right
+                   bottom: dateText.bottom
+                   margins: Theme.horizontalPageMargin
+               }
+               text: model.score
                color: "#FEE497"
            }
         }

@@ -40,7 +40,7 @@
         <translation>У Вас еще нет рекордов!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/RecordsPage.qml" line="111"/>
+        <location filename="../qml/pages/RecordsPage.qml" line="168"/>
         <source>#creatorTitle</source>
         <translation>Создано alexbayker</translation>
     </message>

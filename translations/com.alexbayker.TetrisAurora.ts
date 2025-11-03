@@ -40,7 +40,7 @@
         <translation>You don&apos;t have records!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/RecordsPage.qml" line="111"/>
+        <location filename="../qml/pages/RecordsPage.qml" line="168"/>
         <source>#creatorTitle</source>
         <translation>Created by alexbayker</translation>
     </message>
